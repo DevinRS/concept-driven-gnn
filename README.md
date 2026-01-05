@@ -24,11 +24,5 @@ We provide notebooks to replicate the three core experiments from the paper:
 - [cite_start]We provide the processing scripts to generate the $116 \times 116$ Schaefer parcellated matrices used in the study[cite: 670].
 - Raw data must be requested/downloaded from the [MICA-MICS repository](https://data.mics.mcgill.ca/).
 
-## 📦 Requirements
-* `torch`
-* `torch_geometric` (for GCNConv layers)
-* `shap`
-* `numpy` / `pandas`
-
 ## 📚 Citation
 [Insert Citation Here once published]
