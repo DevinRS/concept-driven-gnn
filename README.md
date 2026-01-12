@@ -21,7 +21,7 @@ The model filters the input SC matrix based on predefined neuroscientific concep
 
 The project pipeline is divided into four sequential notebooks located in the `notebooks/` directory. You can run these directly in Google Colab.
 
-> **Quick Start:** For a full demo run, execute the notebooks in order (1 $\rightarrow$ 4). Ensure the anonymized `.npy` data files (provided in the repo) are in your working directory.
+> **Quick Start:** For a full demo run, execute the notebooks in order (1 $\rightarrow$ 4). Ensure the `.npy` data files (provided in the repo) are in your working directory.
 
 ### 1. `1_DataVisualization.ipynb`
 **Understanding the Input Data**
@@ -52,7 +52,7 @@ The project pipeline is divided into four sequential notebooks located in the `n
 * **Key Operations:**
     * **Null Distribution:** Generates a baseline of SHAP ratios by training the model on **randomized masks** ($N=100$ permutations).
     * **Hypothesis Testing:** Compares the actual SHAP ratio (from Notebook 3) against the null distribution to calculate $p$-values.
-* **Replicability:** Visualizes the full 100-iteration experiment results using the provided `results_null_distribution.csv`.
+* **Replicability:** Visualizes the full 100-iteration experiment results using the provided `.csv` in `notebooks/Dataset/`.
 
 ## 📂 Dataset
 This project uses the **MICA-MICS dataset**. 
